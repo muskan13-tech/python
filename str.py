@@ -1,0 +1,20 @@
+# i=input("a string  : ")
+# print(i.lower())
+# print(i.upper())
+# print(i.title())
+# print(len(i))
+# print(i.count("i"))
+# print(i.replace("a","k"))
+# print(i.find("a"))
+name = "       Muskan              "
+dots = "................"
+print(name + dots)
+print(name.lstrip()+dots)
+print(name.rstrip()+dots)
+print(name.strip()+dots)
+n="Muskan"
+print(n[2])
+print(n[0:3])
+age , salary =input("Enter your age  and salary : ").split(",")
+print(age)
+print(salary)
